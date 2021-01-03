@@ -7,3 +7,6 @@ compile on your system with:
 
 run with:
 ```./mem_bench```
+
+scores:
+higher is better!
