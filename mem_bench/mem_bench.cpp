@@ -24,7 +24,7 @@ int main(){
 
         std::chrono::time_point<std::chrono::system_clock> start, stop;
 
-        double data_size = 2048.0;
+        double data_size = 204.8;
 
         for(q = 0; q < 64000; q++){
                 main_array_1[q] = rand() % 255;
@@ -42,7 +42,7 @@ int main(){
 
         start = std::chrono::system_clock::now();
 
-        for(i = 0; i < 1000000; i++ ){
+        for(i = 0; i < 100000; i++ ){
 
             memcpy(main_array_4, main_array_3, sizeof(int)*64000);
 
