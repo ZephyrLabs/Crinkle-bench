@@ -64,6 +64,6 @@ int main(){
 
         float bandwidth = data_size / lapsed.count();
 
-        printf("\nachieved bandwidth: %f Gbit/s\n", bandwidth);
+        printf("\nachieved bandwidth: %f GB/s\n", bandwidth);
 
 }   

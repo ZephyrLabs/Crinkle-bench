@@ -3,10 +3,10 @@ this program is a simple memory benchark,
 results may vary slightly
 
 compile on your system with:
-```g++ mem_bench.cpp -o2 mem_bench```
+```g++ -o2 mem_bench.cpp```
 
 run with:
-```./mem_bench```
+```./2```
 
 scores:
 higher is better!
